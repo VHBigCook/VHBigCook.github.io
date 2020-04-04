@@ -166,7 +166,6 @@ h1, h2, h3, h4, h5, h6{
 .form-search input[type="search"]:focus {
   width: 160px;
   color: #25464D;
-  margin-right: 20px;
 }
 .form-search input[type="image"] {  /* картинка лупы */
   padding: 0;
