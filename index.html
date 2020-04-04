@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Gotu|Lato|Open+Sans|Vidaloka&display=swap" rel="stylesheet">
 	<title>Bagdum</title>
+	<script src="script.js"></script>
 </head>
 <header class="header">
 	<div class="container">
@@ -22,7 +23,7 @@
 				<form class="form-search" action="/search/" target="_blank">
 					<input type="hidden" name="searchid" value="808327">
 					<input type="search" name="text" required placeholder="">
-				    <input type="image" src="lup.png" alt="Search">
+				    <input id="image" type="image" src="lup.png" alt="Search" onclick="my_click();">
 				</form>
 			</div>
 		</div>
